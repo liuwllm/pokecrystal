@@ -522,7 +522,7 @@ _ContTextNoPause::
 	ld a, [wOptions]
 	and TEXT_DELAY_MASK
 	cp TEXT_DELAY_FAST
-	jr nz, .not instant
+	jr nz, .not_instant
 	ld c, 15
 	call DelayFrames
 .not_instant
