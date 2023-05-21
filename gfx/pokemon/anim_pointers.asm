@@ -184,7 +184,7 @@ AnimationPointers:
 	dw BellossomAnimation
 	dw MarillAnimation
 	dw AzumarillAnimation
-	dw SudowoodoAnimation
+	dw MawileAnimation
 	dw PolitoedAnimation
 	dw HoppipAnimation
 	dw SkiploomAnimation

@@ -184,7 +184,7 @@ PokemonNames::
 	db "BELLOSSOM@"
 	db "MARILL@@@@"
 	db "AZUMARILL@"
-	db "SUDOWOODO@"
+	db "MAWILE@@@@"
 	db "POLITOED@@"
 	db "HOPPIP@@@@"
 	db "SKIPLOOM@@"

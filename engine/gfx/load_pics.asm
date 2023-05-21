@@ -121,7 +121,6 @@ GetFrontpicPointer:
 	call AddNTimes
 	ld a, d
 	call GetFarByte
-	call FixPicBank
 	push af
 	inc hl
 	ld a, d
@@ -224,7 +223,6 @@ GetMonBackpic:
 	add hl, bc
 	ld a, d
 	call GetFarByte
-	call FixPicBank
 	push af
 	inc hl
 	ld a, d
@@ -242,24 +240,6 @@ GetMonBackpic:
 	call Get2bpp
 	pop af
 	ldh [rSVBK], a
-	ret
-
-FixPicBank:
-; This is a thing for some reason.
-
-DEF PICS_FIX EQU $36
-EXPORT PICS_FIX
-
-	push hl
-	push bc
-	sub BANK("Pics 1") - PICS_FIX
-	ld c, a
-	ld b, 0
-	ld hl, .PicsBanks
-	add hl, bc
-	ld a, [hl]
-	pop bc
-	pop hl
 	ret
 
 .PicsBanks:
@@ -297,7 +277,6 @@ GSIntro_GetMonFrontpic: ; unreferenced
 	call AddNTimes
 	ld a, BANK(PokemonPicPointers)
 	call GetFarByte
-	call FixPicBank
 	push af
 	inc hl
 	ld a, BANK(PokemonPicPointers)
@@ -328,7 +307,6 @@ GetTrainerPic:
 	push de
 	ld a, BANK(TrainerPicPointers)
 	call GetFarByte
-	call FixPicBank
 	push af
 	inc hl
 	ld a, BANK(TrainerPicPointers)

@@ -563,7 +563,7 @@ MarillEggMoves:
 	db FORESIGHT
 	db -1 ; end
 
-SudowoodoEggMoves:
+MawileEggMoves:
 	db SELFDESTRUCT
 	db -1 ; end
 

@@ -215,7 +215,6 @@ QuagsireFrontpic:    INCBIN "gfx/pokemon/quagsire/front.animated.2bpp.lz"
 SECTION "Pics 9", ROMX
 
 EkansFrontpic:       INCBIN "gfx/pokemon/ekans/front.animated.2bpp.lz"
-SudowoodoFrontpic:   INCBIN "gfx/pokemon/sudowoodo/front.animated.2bpp.lz"
 PikachuFrontpic:     INCBIN "gfx/pokemon/pikachu/front.animated.2bpp.lz"
 SeadraFrontpic:      INCBIN "gfx/pokemon/seadra/front.animated.2bpp.lz"
 MagbyFrontpic:       INCBIN "gfx/pokemon/magby/front.animated.2bpp.lz"
@@ -422,7 +421,6 @@ ElectrodeFrontpic:   INCBIN "gfx/pokemon/electrode/front.animated.2bpp.lz"
 
 SECTION "Pics 14", ROMX
 
-SudowoodoBackpic:    INCBIN "gfx/pokemon/sudowoodo/back.2bpp.lz"
 FlaaffyBackpic:      INCBIN "gfx/pokemon/flaaffy/back.2bpp.lz"
 SentretFrontpic:     INCBIN "gfx/pokemon/sentret/front.animated.2bpp.lz"
 TogeticBackpic:      INCBIN "gfx/pokemon/togetic/back.2bpp.lz"
@@ -779,6 +777,8 @@ INCBIN "gfx/pokemon/unown_r/back.2bpp.lz"
 ; but entries for their banks exist in FixPicBank (see engine/gfx/load_pics.asm).
 
 SECTION "Pics 20", ROMX
+MawileFrontpic:      INCBIN "gfx/pokemon/mawile/front.animated.2bpp.lz"
+MawileBackpic:       INCBIN "gfx/pokemon/mawile/back.2bpp.lz"
 
 SECTION "Pics 21", ROMX
 

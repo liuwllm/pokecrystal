@@ -190,7 +190,7 @@ PokemonCries::
 	mon_cry CRY_CLEFFA,      132,  336 ; BELLOSSOM
 	mon_cry CRY_MARILL,      283,  288 ; MARILL
 	mon_cry CRY_MARILL,      182,  384 ; AZUMARILL
-	mon_cry CRY_CLEFFA,     3904,  384 ; SUDOWOODO
+	mon_cry CRY_CLEFFA,     3904,  384 ; MAWILE
 	mon_cry CRY_CLEFFA,     -675,  456 ; POLITOED
 	mon_cry CRY_CLEFFA,       59,  200 ; HOPPIP
 	mon_cry CRY_CLEFFA,       39,  312 ; SKIPLOOM

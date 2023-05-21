@@ -129,6 +129,7 @@ AlphabeticalPokedexOrder:
 	db MAREEP
 	db MARILL
 	db MAROWAK
+	db MAWILE
 	db MEGANIUM
 	db MEOWTH
 	db METAPOD
@@ -215,7 +216,6 @@ AlphabeticalPokedexOrder:
 	db STARMIE
 	db STARYU
 	db STEELIX
-	db SUDOWOODO
 	db SUICUNE
 	db SUNFLORA
 	db SUNKERN

@@ -185,7 +185,7 @@ PokedexDataPointerTable:
 	dw BellossomPokedexEntry
 	dw MarillPokedexEntry
 	dw AzumarillPokedexEntry
-	dw SudowoodoPokedexEntry
+	dw MawilePokedexEntry
 	dw PolitoedPokedexEntry
 	dw HoppipPokedexEntry
 	dw SkiploomPokedexEntry

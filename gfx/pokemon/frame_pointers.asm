@@ -184,7 +184,7 @@ FramesPointers:
 	dw BellossomFrames
 	dw MarillFrames
 	dw AzumarillFrames
-	dw SudowoodoFrames
+	dw MawileFrames
 	dw PolitoedFrames
 	dw HoppipFrames
 	dw SkiploomFrames
